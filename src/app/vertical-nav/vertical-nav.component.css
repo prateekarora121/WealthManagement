@@ -1,0 +1,7 @@
+.nav-item{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+}
+li{
+    border-color: rgb(219, 126, 110);
+    border-width: 5px;
+}

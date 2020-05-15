@@ -1,0 +1,14 @@
+<p>fixed-deposite works!</p>
+
+<div class="row" >
+<div class="col">OrderID</div>
+<div class="col">CustomerName</div>
+<div class="col">ShipperCity</div>
+<div class="col">IsShipped</div>
+</div>
+<div class="row" *ngFor="let o of stringArr">
+    <div class="col">{{o.OrderID}}</div>
+    <div class="col">{{o.CustomerName}}</div>
+    <div class="col">{{o.ShipperCity}}</div>
+    <div class="col">{{o.IsShipped}}</div>
+    </div>

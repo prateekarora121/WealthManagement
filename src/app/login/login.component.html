@@ -1,0 +1,42 @@
+
+<div class="row">
+<!-- <div class="col-md-5">
+    <h4> Registration Form</h4>
+<div id="loginDiv" style="width:50%">
+    <div style="width:50%">
+        <div class="form-group">
+            <label for="txtEmail">First Name </label>
+            <input type='email' name="email"  [(ngModel)]='email' id="txtEmail" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" id="textPwd" [(ngModel)]='password'  class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Confrim Password</label>
+            <input type="password" [(ngModel)]='password' id="txtConfirmPwd" class="form-control">
+        </div>
+    </div>
+    <button id="register" class="btn btn-default" (click)="btnLogin()">Submit</button>
+</div>
+</div> -->
+<div class="col-lg-6">
+<h4>Login </h4>
+
+<div id="loginDiv" style="width:50%">
+    <div class="form-group">
+        <label for="txtEmail">First Name </label>
+        <input type='email' name="email"  [(ngModel)]='email' class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password"  class="form-control" [(ngModel)]='password'>
+    </div>
+    <button id="btnLogin" class="btn btn-default" (click)="btnLogin()">Submit </button>
+</div>
+<div>
+    <label>{{auth}}</label>
+    <label id="msg">{{Error}}</label>
+</div>
+</div>
+</div>

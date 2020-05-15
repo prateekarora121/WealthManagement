@@ -1,0 +1,16 @@
+.cr{color:green}
+.dr{color:red}
+.bld{
+    font-weight: 700;    
+}
+
+/* Structure */
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
